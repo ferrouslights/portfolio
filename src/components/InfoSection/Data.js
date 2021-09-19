@@ -9,7 +9,7 @@ export const homeObjOne = {
     buttonLabel: 'Contact Me',
     imgStart: false,
     img: require('../../images/me.png'),
-    alt: 'Car',
+    alt: 'About Me',
     dark: true,
     primary: true,
     darkText: false
@@ -26,7 +26,7 @@ export const homeObjTwo = {
     buttonLabel: 'Contact Me',
     imgStart: true,
     img: require('../../images/skills.png'),
-    alt: 'Car',
+    alt: 'My skills',
     dark: false,
     primary: false,
     darkText: true
