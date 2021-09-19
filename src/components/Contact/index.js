@@ -38,7 +38,7 @@ const Contact = () => {
                         eraseSpeed="150"
                         eraseDelay="2000"
                         /></ContentH1>
-                            <Text href="mailto:hi@benjy.pro">hi@benjy.pro</Text>
+                            {/* <Text href="mailto:hi@benjy.pro">hi@benjy.pro</Text> */}
                             <Social>
                     <SocialMediaWrapper>
                         <SocialIcons>
