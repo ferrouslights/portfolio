@@ -97,9 +97,11 @@ export const SocialLogo = styled(Link)`
     font-weight: bold;
     transition: 0.2s ease-in-out;
 
-    &:hover {
-        transition: 0.2s ease-in-out;
-        transform: rotate(5deg);
+    @media (hover: hover) {
+        &:hover {
+            transition: 0.2s ease-in-out;
+            transform: rotate(5deg);
+        }
     }
 `
 export const SocialIcons = styled.div`
@@ -115,8 +117,10 @@ export const SocialIconLink = styled.a`
     font-size: 24px;;
     transition: 0.2s ease-in-out;
 
-    &:hover {
-        transition: 0.2s ease-in-out;
-        transform: rotate(15deg);
+    @media (hover: hover) {
+        &:hover {
+            transition: 0.2s ease-in-out;
+            transform: rotate(15deg);
+        }
     }
 `

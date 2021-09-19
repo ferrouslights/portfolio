@@ -66,9 +66,11 @@ export const Icon = styled(Link)`
         margin-top: 8px;
     }
 
-    &:hover {
-        margin-top: 30px;
-        transition: all .5s ease-in-out;
+    @media (hover: hover) {
+        &:hover {
+            margin-top: 30px;
+            transition: all .5s ease-in-out;
+        }
     }
 `
 export const Card = styled.div`
@@ -149,8 +151,10 @@ export const SocialIconLink = styled.a`
     font-size: 24px;
     transition: 0.2s ease-in-out;
 
-    &:hover {
-        transition: 0.2s ease-in-out;
-        transform: rotate(15deg);
+    @media (hover: hover) {
+        &:hover {
+            transition: 0.2s ease-in-out;
+            transform: rotate(15deg);
+        }
     }
 `

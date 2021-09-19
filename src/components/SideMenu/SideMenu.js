@@ -59,9 +59,11 @@ export const SideMenuLink = styled(LinkS)`
     color: #fff;
     cursor: pointer;
 
-    &:hover {
-        color: #02233B;
-        transition: 0.2s ease-in-out;
+    @media (hover: hover) {
+        &:hover {
+            color: #02233B;
+            transition: 0.2s ease-in-out;
+        }
     }
 `
 
@@ -82,9 +84,11 @@ export const SideMenuRouter = styled(LinkR)`
     transition: all 0.2s ease-in-out;
     text-decoration: none;
 
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: #fff;
-        color: #010606;
+    @media (hover: hover) {
+        &:hover {
+            transition: all 0.2s ease-in-out;
+            background: #fff;
+            color: #010606;
+        }
     }
 `

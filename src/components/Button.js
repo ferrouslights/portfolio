@@ -17,9 +17,16 @@ export const Button = styled(Link)`
     align-items: center;
     transition: all 0.2s ease-in-out;
 
-    &:hover {
+    @media (hover: hover) {
+        &:hover{
+        transition: all 0.2s ease-in-out;
+        background: ${({primary}) => (primary ? '#DF957C' : '#DF957C')};
+        }
+}
+
+    /* &:hover {
         transition: all 0.2s ease-in-out;
         background: ${({primary}) => (primary ? '#DF957C' : '#DF957C')};
         
-    }
+    } */
 `
