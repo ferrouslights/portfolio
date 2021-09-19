@@ -1,6 +1,6 @@
 //this is default a react scroll link
 import styled from "styled-components";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 export const Button = styled(Link)`
     border-radius: 50px;
@@ -16,6 +16,7 @@ export const Button = styled(Link)`
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
+    text-decoration: none;
 
     @media (hover: hover) {
         &:hover{
