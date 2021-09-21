@@ -25,7 +25,7 @@ export const homeObjTwo = {
     description: 'HTML5 - CSS (SCSS) - JS (ES6) - React.js - Styled Components - PHP - Bootstrap - Photo Editing - Video Editing - WHM - Cpanel - Netlify - Time Management - Telecommunication - SEO',
     buttonLabel: 'Contact Me',
     imgStart: true,
-    img: require('../../images/skills.png'),
+    img: require('../../images/drawing.png'),
     alt: 'My skills',
     dark: false,
     primary: false,
