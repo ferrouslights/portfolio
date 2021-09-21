@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-    height: 800px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,10 +9,10 @@ export const ProjectsContainer = styled.div`
     background: #02233B;
 
     @media screen and (max-width: 768px) {
-        height: 1100px;
+        height: 1300px;
     }
     @media screen and (max-width: 480px) {
-        height: 1300px;
+        height: 1500px;
     }
 `
 export const ProjectsWrapper = styled.div`
