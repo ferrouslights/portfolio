@@ -38,6 +38,7 @@ const Contact = () => {
                         eraseSpeed="150"
                         eraseDelay="2000"
                         /></ContentH1>
+                            {/* this email doesnt exist yet */}
                             {/* <Text href="mailto:hi@benjy.pro">hi@benjy.pro</Text> */}
                             <Social>
                     <SocialMediaWrapper>
