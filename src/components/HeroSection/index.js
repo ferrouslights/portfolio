@@ -11,7 +11,8 @@ import {
     ArrowRight, 
     Typewriter 
 } from './HeroSection';
-import BannerImage from '../../images/banner.png';
+// banner foundation placed just in case I want one later
+// import BannerImage from '../../images/banner.png';
 import { Button } from '../Button';
 
 const HeroSection = () => {
@@ -42,7 +43,7 @@ const HeroSection = () => {
                     onMouseLeave={onHover}
                     primary="true"
                     dark="true">
-                        Contact {hover ? <ArrowForward /> : <ArrowRight />}
+                        Contact Me {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>

@@ -24,10 +24,28 @@ export const Button = styled(Link)`
         background: ${({primary}) => (primary ? '#DF957C' : '#DF957C')};
         }
 }
+`
 
-    /* &:hover {
+export const ButtonExternal = styled.a`
+    border-radius: 50px;
+    background: ${({primary}) => (primary ? '#D36D4A' : '#0776C5')};
+    white-space: nowrap;
+    padding: ${({big}) => (big ? '14px 48px' : '12px')};
+    color: ${({dark}) => (dark ? '#011827' : '#FFF8EB')};
+    font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    @media (hover: hover) {
+        &:hover{
         transition: all 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? '#DF957C' : '#DF957C')};
-        
-    } */
+        background: ${({primary}) => (primary ? '#DF957C' : '#75C3FA')};
+        }
+}
 `
