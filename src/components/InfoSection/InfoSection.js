@@ -6,7 +6,7 @@ export const InfoContainer = styled.div`
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
-
+        
     }
 `
 
@@ -59,7 +59,7 @@ export const TopLine = styled.p`
     line-height: 16px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    /* font-weight: 700; */
+    font-weight: 700;
     margin-bottom: 16px;
 `
 
@@ -67,7 +67,7 @@ export const Heading = styled.div`
     margin-bottom: 24px;
     font-size: 48px;
     line-height: 1.1;
-    /* font-weight: 600; */
+    font-weight: 600;
     color: ${({lightText}) => (lightText ? '#f7f8fa' : '#011827')};
 
     @media screen and (max-width: 480px) {

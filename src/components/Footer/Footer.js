@@ -96,6 +96,7 @@ export const SocialLogo = styled(Link)`
     margin-bottom: 16px;
     font-weight: bold;
     transition: 0.2s ease-in-out;
+    
 
     @media (hover: hover) {
         &:hover {

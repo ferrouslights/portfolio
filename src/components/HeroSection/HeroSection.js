@@ -79,7 +79,7 @@ export const HeroP = styled.span`
     text-align: left;
     max-width: 600px;
     align-self: flex-start;
-
+    font-family: 'Lobster', cursive;
     @media screen and (max-width: 768px) {
         font-size: 48px;
     }
