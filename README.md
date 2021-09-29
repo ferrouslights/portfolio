@@ -1,5 +1,7 @@
 # My Portfolio
 
+Hosted with netlify at www.benjy.pro
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses Styled Components.
 
 This portfolio is slowly being updated as I find time. Check back later for new features!
