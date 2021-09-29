@@ -51,6 +51,7 @@ export const ProjectsCard = styled.div`
             transform: scale(1.02);
             transition: all 0.2s ease-in-out;
             cursor: pointer;
+            border-radius: 5px;
         }
     }
 `
