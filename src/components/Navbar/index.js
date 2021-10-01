@@ -14,6 +14,7 @@ import {
     NavBtnLink
 } from './Navbar'
 import { IconContext } from "react-icons/lib";
+import { RedText } from '../RedText';
 
 
 const Navbar = ({ toggle }) => {
@@ -40,7 +41,11 @@ const Navbar = ({ toggle }) => {
         <IconContext.Provider value={{color: '#fff'}}>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>bridges</NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}>
+                        <RedText>&#123;</RedText>
+                        bridges
+                        <RedText>&#125;</RedText>
+                    </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>

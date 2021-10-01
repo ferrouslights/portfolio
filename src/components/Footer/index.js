@@ -10,6 +10,7 @@ import {
     SocialLogo,
     SocialMediaWrapper
  } from './Footer'
+ import { RedText } from '../RedText';
 
 
 
@@ -49,7 +50,9 @@ const Footer = () => {
                 <Social>
                     <SocialMediaWrapper>
                         <SocialLogo to='/' onClick={toggleHome}>
+                            <RedText>&#123;</RedText>
                             bridges
+                            <RedText>&#125;</RedText>
                         </SocialLogo>
                         <SocialIcons>
                             <SocialIconLink 
